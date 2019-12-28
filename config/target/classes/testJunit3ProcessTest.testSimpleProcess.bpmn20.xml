@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 样板文件，需要与BPMN 2.0标准规范完全一致。 -->
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI"
+             xmlns:flowable="http://flowable.org/bpmn"
+             typeLanguage="http://www.w3.org/2001/XMLSchema"
+             expressionLanguage="http://www.w3.org/1999/XPath"
+             targetNamespace="http://www.flowable.org/processdef">
+
+    <!--一个流程定义-->
+    <process id="holidayRequest" name="Holiday Request" isExecutable="true">
+
+        <!--开始任务-->
+        <startEvent id="startEvent"/>
+        <sequenceFlow sourceRef="startEvent" targetRef="approveTask" />
+
+        <!--用户任务,执行者进行审核-->
+        <userTask id="approveTask" name="approveTask" />
+        <sequenceFlow sourceRef="approveTask" targetRef="approveEnd" />
+
+        <!--流程执行完毕,结束任务-->
+        <endEvent id="approveEnd"/>
+
+    </process>
+
+</definitions>

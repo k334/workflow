@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.flowable.engine.impl.cfg.StandaloneProcessEngineConfiguration" id="processEngineConfiguration">
+        <property name="jdbcDriver" value="com.mysql.jdbc.Driver" />
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/flowable?useSSL=false" />
+        <property name="jdbcUsername" value="root" />
+        <property name="jdbcPassword" value="root" />
+        <!--
+            用于设置流程引擎启动关闭时使用的数据库表结构控制策略
+            false: 当引擎启动时，检查数据库表结构的版本是否匹配库文件版本。版本不匹配时抛出异常
+            true: 构建引擎时,检查并需要时更新表结构。表不存在则会创建
+            create-drop: 引擎创建时创建表结构,引擎关闭时删除表结构
+        -->
+        <property name="databaseSchemaUpdate" value="true" />
+
+        <!--
+            AsyncExecutor是管理线程池的组件，用于触发定时器与其他异步任务。
+            默认情况下，AsyncExecutor并未启用，也不会启动。
+            设置为true时可以将Flowable引擎在启动的同时启动异步执行器。
+        -->
+        <property name="asyncExecutorActivate" value="false" />
+
+        <!--
+            鉴于流程定义信息不会改变,为了避免每次使用流程定义时都读取数据库,所有的流程定义都会（在解析后）被缓存。
+            默认情况下,这个缓存没有限制。
+            设置这个参数,会将默认的hashmap缓存替换为LRU缓存,以进行限制。
+            当然,参数的“最佳”取值,取决于总的流程定义数量,以及实际使用的流程定义数量。
+        -->
+        <property name="processDefinitionCacheLimit" value="10" />
+
+
+        <!--
+            配置中添加了一个事件监听器，无论任何类型的事件分发时，都会得到通知
+        -->
+        <property name="eventListeners">
+            <list>
+                <bean class="com.zsj.listener.MyEventListener"></bean>
+            </list>
+        </property>
+    </bean>
+</beans>
