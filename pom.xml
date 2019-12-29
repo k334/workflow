@@ -11,6 +11,7 @@
     <modules>
         <module>firstDemo</module>
         <module>config</module>
+        <module>flowable_api</module>
     </modules>
 
 

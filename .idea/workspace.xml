@@ -1,52 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae96f1b-03b9-4581-8480-9507a9d7070d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/zsj/CreateProcessEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/zsj/delegage/MDCErrorDelegage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/zsj/interceptor/MDCCommandInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/zsj/listener/MyEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/flowable.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/flowable_dbcp.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/flowable_durid.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/testJunit3ProcessTest.testSimpleProcess.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/testJunit4ProcessTest.testRuleUsageExample.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/junit/Junit3ProcessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/junit/Junit4ProcessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/testConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/com/zsj/CreateProcessEngine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/com/zsj/delegage/MDCErrorDelegage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/com/zsj/listener/MyEventListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/flowable.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/flowable_dbcp.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/flowable_durid.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/testJunit3ProcessTest.testSimpleProcess.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/classes/testJunit4ProcessTest.testRuleUsageExample.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/test-classes/com/zsj/config/junit/Junit3ProcessTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/test-classes/com/zsj/config/junit/Junit4ProcessTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/target/test-classes/com/zsj/config/testConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/src/main/java/org/flowable/CallExternalSystemDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/src/main/java/org/flowable/HolidayRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/src/main/java/org/flowable/SendRejectionMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/src/main/resources/holiday-request.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/target/classes/holiday-request.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/target/classes/org/flowable/CallExternalSystemDelegate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/target/classes/org/flowable/HolidayRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstDemo/target/classes/org/flowable/SendRejectionMail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflow.iml" afterDir="false" />
+    <list default="true" id="9ae96f1b-03b9-4581-8480-9507a9d7070d" name="Default Changelist" comment="工作流">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/flowable_spring.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/src/main/java/com/zsj/delegage/MDCErrorDelegage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/src/main/resources/flowable.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/src/main/resources/holiday-request.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/src/test/java/com/zsj/exception/ProcessEngineException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowable_api/src/test/java/com/zsj/query/testQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/zsj/CreateProcessEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/zsj/delegage/MDCErrorDelegage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/flowable.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/flowable.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/flowable_durid.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/flowable_durid.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/testJunit3ProcessTest.testSimpleProcess.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flowable_api/src/main/resources/testJunit3ProcessTest.testSimpleProcess.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/testJunit4ProcessTest.testRuleUsageExample.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flowable_api/src/main/resources/testJunit4ProcessTest.testRuleUsageExample.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/junit/Junit3ProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowable_api/src/test/java/com/zsj/junit/Junit3ProcessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/junit/Junit4ProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowable_api/src/test/java/com/zsj/junit/Junit4ProcessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/testConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/test/java/com/zsj/config/processEngine/testConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/com/zsj/CreateProcessEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/com/zsj/delegage/MDCErrorDelegage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/com/zsj/listener/MyEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/flowable.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/flowable_dbcp.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/flowable_durid.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/testJunit3ProcessTest.testSimpleProcess.bpmn20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/testJunit4ProcessTest.testRuleUsageExample.bpmn20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/test-classes/com/zsj/config/junit/Junit3ProcessTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/test-classes/com/zsj/config/junit/Junit4ProcessTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/test-classes/com/zsj/config/testConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstDemo/src/main/java/org/flowable/HolidayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstDemo/src/main/java/org/flowable/HolidayRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstDemo/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/firstDemo/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstDemo/target/classes/org/flowable/HolidayRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/firstDemo/target/classes/org/flowable/HolidayRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +74,12 @@
   <component name="ProjectId" id="1VKNZzgc3ORSWxuvFVeQrQHotu3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flowable_api/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -93,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\flowable\workflow\flowable_api\src\main\resources" />
       <recent name="F:\flowable\workflow\config\src\main\resources" />
       <recent name="F:\flowable\workflow\config\src\test\java\com\zsj\config\junit" />
       <recent name="F:\flowable\workflow\config\src\test\java\com\zsj\config" />
@@ -110,32 +105,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Junit4ProcessTest.ruleUsageExample">
-    <configuration name="Junit3ProcessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+  <component name="RunManager" selected="JUnit.testQuery.testOR">
+    <configuration name="HolidayRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flowable.HolidayRequest" />
+      <module name="firstDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsj.config.junit.*" />
+          <option name="PATTERN" value="org.flowable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zsj.config.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.zsj.config.junit.Junit3ProcessTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Junit3ProcessTest.testSimpleProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+      <module name="flowable_api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsj.config.junit.*" />
+          <option name="PATTERN" value="com.zsj.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zsj.config.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.zsj.config.junit.Junit3ProcessTest" />
+      <option name="PACKAGE_NAME" value="com.zsj.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.zsj.junit.Junit3ProcessTest" />
       <option name="METHOD_NAME" value="testSimpleProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -143,48 +136,48 @@
       </method>
     </configuration>
     <configuration name="Junit4ProcessTest.ruleUsageExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+      <module name="flowable_api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsj.config.junit.*" />
+          <option name="PATTERN" value="com.zsj.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zsj.config.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.zsj.config.junit.Junit4ProcessTest" />
+      <option name="PACKAGE_NAME" value="com.zsj.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.zsj.junit.Junit4ProcessTest" />
       <option name="METHOD_NAME" value="ruleUsageExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testConfig.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+    <configuration name="testQuery.testAND" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flowable_api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsj.config.junit.*" />
+          <option name="PATTERN" value="com.zsj.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zsj.config" />
-      <option name="MAIN_CLASS_NAME" value="com.zsj.config.testConfig" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="com.zsj.query" />
+      <option name="MAIN_CLASS_NAME" value="com.zsj.query.testQuery" />
+      <option name="METHOD_NAME" value="testAND" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testConfig.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+    <configuration name="testQuery.testOR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flowable_api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsj.config.junit.*" />
+          <option name="PATTERN" value="com.zsj.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zsj.config" />
-      <option name="MAIN_CLASS_NAME" value="com.zsj.config.testConfig" />
-      <option name="METHOD_NAME" value="test05" />
+      <option name="PACKAGE_NAME" value="com.zsj.query" />
+      <option name="MAIN_CLASS_NAME" value="com.zsj.query.testQuery" />
+      <option name="METHOD_NAME" value="testOR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,17 +185,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Junit4ProcessTest.ruleUsageExample" />
+        <item itemvalue="JUnit.testQuery.testOR" />
+        <item itemvalue="JUnit.testQuery.testAND" />
+        <item itemvalue="Application.HolidayRequest" />
         <item itemvalue="JUnit.Junit3ProcessTest.testSimpleProcess" />
-        <item itemvalue="JUnit.Junit3ProcessTest" />
-        <item itemvalue="JUnit.testConfig.test05" />
-        <item itemvalue="JUnit.testConfig.test04" />
+        <item itemvalue="JUnit.Junit4ProcessTest.ruleUsageExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_ANONYMOUS,SHOW_LAMBDA,ALPHA_COMPARATOR,VISIBILITY_SORTER,SHOW_INHERITED" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_ANONYMOUS,SHOW_LAMBDA,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -226,8 +219,17 @@
       <workItem from="1577355103396" duration="370000" />
       <workItem from="1577360758505" duration="603000" />
       <workItem from="1577432156919" duration="17065000" />
-      <workItem from="1577515215492" duration="1619000" />
+      <workItem from="1577515215492" duration="15381000" />
+      <workItem from="1577591001748" duration="11469000" />
     </task>
+    <task id="LOCAL-00001" summary="工作流">
+      <created>1577517189631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577517189631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,10 +240,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="工作流" />
+    <option name="LAST_COMMIT_MESSAGE" value="工作流" />
   </component>
 </project>

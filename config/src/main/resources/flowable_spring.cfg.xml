@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 配置数据源信息 -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/flowable?useSSL=false" />
+        <property name="username" value="root" />
+        <property name="password" value="root" />
+    </bean>
+
+    <!-- 配置事务管理器 -->
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!--
+        使用org.springframework.jdbc.datasource.DataSourceTransactionManager对得到的数据源进行包装。
+        这是为了保证从数据源获取的SQL连接与Spring的事务可以协同工作。
+        这样也就不需要在Spring配置中对数据源进行代理（proxy）。
+    -->
+    <bean class="org.flowable.spring.SpringProcessEngineConfiguration" id="processEngineConfiguration">
+        <property name="dataSource" ref="dataSource" />
+        <property name="transactionManager" ref="transactionManager" />
+        <property name="databaseSchemaUpdate" value="true" />
+        <property name="asyncExecutorActivate" value="false" />
+    </bean>
+
+    <bean id="processEngine" class="org.flowable.spring.ProcessEngineFactoryBean">
+        <property name="processEngineConfiguration" ref="processEngineConfiguration" />
+    </bean>
+
+</beans>

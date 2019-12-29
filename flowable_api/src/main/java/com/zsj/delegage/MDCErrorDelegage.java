@@ -12,6 +12,6 @@ public class MDCErrorDelegage implements JavaDelegate {
     @Override
     public void execute(DelegateExecution execution) {
         logger.info("run MDCErrorDelegage");
-        throw new RuntimeException("only test");
+        //throw new RuntimeException("only test");
     }
 }

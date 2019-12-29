@@ -31,14 +31,5 @@
         -->
         <property name="processDefinitionCacheLimit" value="10" />
 
-
-        <!--
-            配置中添加了一个事件监听器，无论任何类型的事件分发时，都会得到通知
-        -->
-        <property name="eventListeners">
-            <list>
-                <bean class="com.zsj.listener.MyEventListener"></bean>
-            </list>
-        </property>
     </bean>
 </beans>

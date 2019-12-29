@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="firstDemo" />
+        <module name="flowable_api" />
         <module name="config" />
+        <module name="firstDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

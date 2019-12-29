@@ -18,8 +18,8 @@
         <sequenceFlow sourceRef="startEvent" targetRef="approveTask" />
 
         <!--用户任务,执行者进行审核-->
-<!--        <userTask id="approveTask" name="approveTask" />-->
-        <serviceTask id="approveTask" flowable:class="com.zsj.delegage.MDCErrorDelegage" />
+        <userTask id="approveTask" name="approveTask" />
+<!--        <serviceTask id="approveTask" flowable:class="com.zsj.delegage.MDCErrorDelegage" />-->
         <sequenceFlow sourceRef="approveTask" targetRef="approveEnd" />
 
         <!--流程执行完毕,结束任务-->

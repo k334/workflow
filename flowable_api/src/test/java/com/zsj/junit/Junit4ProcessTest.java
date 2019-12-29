@@ -1,5 +1,6 @@
-package com.zsj.config.junit;
+package com.zsj.junit;
 
+import org.flowable.engine.ProcessEngine;
 import org.flowable.engine.RuntimeService;
 import org.flowable.engine.TaskService;
 import org.flowable.engine.test.Deployment;
@@ -12,6 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Junit4ProcessTest {
 
+    //默认使用flowable.cfg.xml的配置
     @Rule
     public FlowableRule flowableRule = new FlowableRule();
 
@@ -19,16 +21,18 @@ public class Junit4ProcessTest {
     @Deployment(resources = "testJunit4ProcessTest.testRuleUsageExample.bpmn20.xml")
     public void ruleUsageExample(){
 
-        RuntimeService runtimeService = flowableRule.getRuntimeService();
+        ProcessEngine processEngine = flowableRule.getProcessEngine();
+
+        RuntimeService runtimeService = processEngine.getRuntimeService();
         runtimeService.startProcessInstanceByKey("ruleUsage");
 
-        TaskService taskService = flowableRule.getTaskService();
+        TaskService taskService = processEngine.getTaskService();
         Task task = taskService.createTaskQuery().singleResult();
         assertEquals("approveTask", task.getName());
 
         taskService.complete(task.getId());
         assertEquals(0, runtimeService.createProcessInstanceQuery().count());
 
-        flowableRule.getProcessEngine().close();
+        processEngine.close();
     }
 }
